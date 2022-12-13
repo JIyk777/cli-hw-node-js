@@ -1,0 +1,32 @@
+{
+  "name": "cli-hw-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": " nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIyk777/cli-hw-node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JIyk777/cli-hw-node-js/issues"
+  },
+  "homepage": "https://github.com/JIyk777/cli-hw-node-js#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  }
+}
